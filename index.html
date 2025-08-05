@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOPE Charity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">H.O.P.E</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Together We Can Make a Difference</h1>
+      <p>Help us create a world where all children feel safe, loved, and valued.</p>
+      <a href="#" class="btn btn-light text-danger fw-bold">Donate Now</a>
+    </div>
+  </section>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">What We Do</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5 class="text-danger">Food Drives</h5>
+            <p>We organize food drives to support underprivileged communities and children in need.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5 class="text-danger">Education Programs</h5>
+            <p>We empower youth by providing learning tools, mentorship, and scholarships.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5 class="text-danger">Health Awareness</h5>
+            <p>Spreading awareness and conducting camps for basic healthcare and hygiene.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonial py-5">
+    <div class="container">
+      <h2 class="section-title text-center">What People Say</h2>
+      <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="text-center">
+              <p class="mb-1">“H.O.P.E. changed my life. Their food drive saved my family during hard times.”</p>
+              <small>- Asha, Volunteer</small>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-center">
+              <p class="mb-1">“They helped me get into college through their scholarship fund.”</p>
+              <small>- Ravi, Beneficiary</small>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-center">
+              <p class="mb-1">“The team is dedicated and truly cares for children. I’m proud to support them.”</p>
+              <small>- Neha, Donor</small>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="volunteer" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Become a Volunteer</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+          <form class="card p-4 shadow-sm border-0">
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Your full name" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="you@example.com" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="+91-XXXX-XXXXXX" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Why do you want to volunteer?</label>
+              <textarea class="form-control" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn w-100" style="background-color: #f76d57; color: white;">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 H.O.P.E. | All rights reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
