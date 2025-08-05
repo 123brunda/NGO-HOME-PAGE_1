@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf5;
+    color: #333;
+  }
+  
+  .navbar {
+    background: linear-gradient(90deg, #f76d57, #ffb347);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, rgba(247, 109, 87, 0.7), rgba(255, 179, 71, 0.7)),
+      url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1350&q=80') center/cover;
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    color: #f76d57;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonial {
+    background-color: #fff3e0;
+  }
+  
+  footer {
+    background: #f76d57;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
